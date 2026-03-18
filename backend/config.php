@@ -7,7 +7,7 @@ define ('Host', 'localhost');
 define ('User', 'root');
 define ('Pass', '');
 define ('Base', 'viralsmart');
-$conn = @new mysqli (Host,User,Pass,Base);
+ $conn = @new mysqli (Host,User,Pass,Base);
 
 if ($conn->connect_errno === 1049) {
     if (!isset($_SESSION['alert_banco_mostrado'])) {
