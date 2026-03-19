@@ -1,0 +1,23 @@
+[
+    {
+    "id": 1,
+    "nome": "Relógio Smart",
+    "descricao": "Relógio inteligente moderno",
+    "preco": 199.90,
+    "imagem": "https://via.placeholder.com/300"
+    },
+    {
+    "id": 2,
+    "nome": "Fone Bluetooth",
+    "descricao": "Fone sem fio com alta qualidade",
+    "preco": 149.90,
+    "imagem": "https://via.placeholder.com/300/555"
+    },
+    {
+    "id": 3,
+    "nome": "Luminária LED",
+    "descricao": "Luminária moderna para seu quarto",
+    "preco": 89.90,
+    "imagem": "https://via.placeholder.com/300/777"
+    }
+    ]

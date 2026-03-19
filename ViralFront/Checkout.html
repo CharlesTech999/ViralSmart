@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Checkout | ViralSmart</title>
+
+<link rel="stylesheet" href="Checkout.css">
+
+</head>
+
+<body>
+
+<div class="checkout-container">
+
+<h1>Finalizar Compra</h1>
+
+<div class="checkout-grid">
+
+<!-- DADOS DO CLIENTE -->
+
+<div class="checkout-form">
+
+<h2>Informações de Entrega</h2>
+
+<input type="text" placeholder="Nome Completo">
+
+<input type="email" placeholder="Email">
+
+<input type="text" placeholder="Telefone">
+
+<input type="text" placeholder="Endereço">
+
+<input type="text" placeholder="Cidade">
+
+<input type="text" placeholder="CEP">
+
+<h2>Pagamento</h2>
+
+<select>
+
+<option>Cartão de Crédito</option>
+<option>Pix</option>
+<option>Boleto</option>
+
+</select>
+
+<button class="finalizar">Finalizar Pedido</button>
+
+</div>
+
+<!-- RESUMO -->
+
+<div class="checkout-resumo">
+
+<h2>Resumo do Pedido</h2>
+
+<div id="checkout-items"></div>
+
+<h3>Total: <span id="checkout-total"></span></h3>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="Checkout.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Catálogo | ViralSmart</title>
+
+<link rel="stylesheet" href="catalogo.css">
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container nav">
+
+<h1 class="logo">Viral <span>Smart</span></h1>
+
+</div>
+
+</header>
+
+<<div class="container">
+
+    <div class="filtros">
+      <button class="botao-filtro ativo" data-categoria="todos" onclick="filtrarCategoria(this)">Todos</button>
+      <button class="botao-filtro" data-categoria="eletronicos" onclick="filtrarCategoria(this)">Eletrônicos</button>
+      <button class="botao-filtro" data-categoria="moda" onclick="filtrarCategoria(this)">Moda</button>
+      <button class="botao-filtro" data-categoria="casa" onclick="filtrarCategoria(this)">Casa</button>
+      <button class="botao-filtro" data-categoria="beleza" onclick="filtrarCategoria(this)">Beleza</button>
+    </div>
+
+    <div id="gradeProdutos" class="carregando">Carregando produtos...</div>
+
+  </div>
+
+<script src="catalogo.js"></script>
+
+</body>
+</html>
