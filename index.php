@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ViralSmart | Produtos Inteligentes</title>
     <meta name = "description" content = "Produtos Inteligentes pelos melhores preços...">
-    <link rel="stylesheet" href="css/root.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/base.css">
 
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-<link rel="stylesheet"
-href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/<? echo $page;?>.css">
     <!-- Acho que fica mais fácil mexer com muitas pessoas se cada CSS for feito separadamente no seu arquivo (ex: 'carrinho.php'), ai deixa a base só pro Root e pra definir as cores com --variaveis -->
 </head>
